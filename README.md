@@ -16,13 +16,13 @@ The main purpose of this project is to build a system that can:
 
 ---
 
-#  Project Aim
+##  Project Aim
 
 The aim of this project is to understand and implement a practical **RAG pipeline**.
 
 Instead of asking an AI model to answer only from its general knowledge, we first retrieve relevant information from our knowledge base and then give that information to the LLM.
 
-# **Project Architecture**
+## **Project Architecture**
                     ┌─────────────────┐
                     │   User Query    │
                     └────────┬────────┘
@@ -83,7 +83,7 @@ RAGAS helps measure the quality of the generated answers and the retrieved conte
 
 The project prepares an evaluation dataset and runs the RAGAS evaluation on multiple test questions.
 
-# Complete Project Workflow
+## Complete Project Workflow
 1. User asks a question
           ↓
 2. System searches the knowledge base
@@ -106,7 +106,7 @@ The project prepares an evaluation dataset and runs the RAGAS evaluation on mult
           ↓
 11. Evaluation run information is stored
 
-# Expected Result
+## Expected Result
 
 When the project runs successfully, the notebook should show retrieval results for the test questions.
 
@@ -129,7 +129,7 @@ Example Generated Answer
 Yes, headphones can be returned within 30 days,
 so a return after 20 days is allowed.
 
-# Technologies Used
+## Technologies Used
 
 | Technology            | Purpose                        |
 | --------------------- | ------------------------------ |
@@ -144,7 +144,7 @@ so a return after 20 days is allowed.
 | Hugging Face Datasets | Evaluation dataset preparation |
 | SQLite                | Evaluation-run storage         |
 
-# How to Run the Project
+## How to Run the Project
 ### Step 1 — Clone the Repository
 git clone <YOUR_GITHUB_REPOSITORY_URL>
 ### Step 2 — Open the Notebook
@@ -174,6 +174,6 @@ Note: This repository does not contain a personal Gemini API key.
        Therefore, the evaluation may require sufficient Gemini API quota.
 
 
-#  Conclusion
+##  Conclusion
 
 This project demonstrates how to build a RAG-based AI system that retrieves relevant information and uses an LLM to generate grounded answers.
