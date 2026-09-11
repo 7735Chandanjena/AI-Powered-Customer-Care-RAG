@@ -83,6 +83,40 @@ RAGAS helps measure the quality of the generated answers and the retrieved conte
 
 The project prepares an evaluation dataset and runs the RAGAS evaluation on multiple test questions.
 
+The project includes four main customer-care scenarios.
+## 🧪 Evaluation Test Cases
+
+The RAG system is evaluated using different customer-care questions.
+
+### 1. Headphones Return
+
+**Customer Question:**
+
+> Can I return headphones after 20 days?
+
+**Knowledge:**
+
+The return policy allows returns within 30 days.
+
+**Expected Answer:**
+
+> Yes, you can return the headphones after 20 days because the return policy allows returns within 30 days.
+
+---
+
+### 2. Laptop Warranty
+
+**Customer Question:**
+
+> My laptop screen is cracked. Is it covered by warranty?
+
+**Knowledge:**
+
+Physical damage is excluded from the warranty.
+
+**Expected Answer:**
+
+> A cracked laptop screen caused by physical damage is not covered by the warranty.
 ## Complete Project Workflow
 1. User asks a question
           ↓
