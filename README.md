@@ -627,34 +627,6 @@ Then run the notebook cells sequentially.
 
 The notebook performs:
 
-```text
-Environment Setup
-       ↓
-Database Initialization
-       ↓
-Chroma Initialization
-       ↓
-Weaviate Initialization
-       ↓
-Data Seeding
-       ↓
-Embedding Setup
-       ↓
-Retrieval
-       ↓
-RAG Generation
-       ↓
-Retrieval Evaluation
-       ↓
-RAGAS Evaluation
-       ↓
-Quality Gate
-       ↓
-Evaluation Report
-```
-
----
-
 # 25. Evaluation Output
 
 The system produces a production evaluation summary similar to:
